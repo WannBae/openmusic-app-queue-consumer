@@ -13,13 +13,13 @@ class MailSender {
   }
   sendEmail(targetEmail, content) {
     const message = {
-      from: "Notes Apps",
+      from: "Openmusic Apps",
       to: targetEmail,
-      subject: "Ekspor Catatan",
-      text: "Terlampir hasil dari ekspor catatan",
+      subject: "Ekspor Playlist",
+      text: "Terlampir hasil dari ekspor Playlist",
       attachments: [
         {
-          filename: "notes.json",
+          filename: "playlist.json",
           content,
         },
       ],
