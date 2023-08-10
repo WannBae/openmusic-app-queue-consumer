@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 require("dotenv").config();
 const amqp = require("amqplib");
 const PlaylistService = require("./PlaylistService");

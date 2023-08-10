@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 class Listener {
   constructor(playlistService, mailSender) {
     this._playlistService = playlistService;
